@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C501F84729FFBAC1008F4217 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C501F84629FFBAC1008F4217 /* Onboarding.swift */; };
+		C5DAB46029FFD7B200AEA20F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAB45F29FFD7B200AEA20F /* Home.swift */; };
+		C5DAB46229FFD80C00AEA20F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAB46129FFD80C00AEA20F /* Menu.swift */; };
+		C5DAB46429FFE63B00AEA20F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAB46329FFE63B00AEA20F /* UserProfile.swift */; };
 		C5E3D15A299DFFB90060FDE6 /* littlelemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E3D159299DFFB90060FDE6 /* littlelemonApp.swift */; };
-		C5E3D15C299DFFB90060FDE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E3D15B299DFFB90060FDE6 /* ContentView.swift */; };
 		C5E3D15E299DFFBC0060FDE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E3D15D299DFFBC0060FDE6 /* Assets.xcassets */; };
 		C5E3D162299DFFBC0060FDE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E3D161299DFFBC0060FDE6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C501F84629FFBAC1008F4217 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		C5DAB45F29FFD7B200AEA20F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C5DAB46129FFD80C00AEA20F /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C5DAB46329FFE63B00AEA20F /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		C5E3D156299DFFB90060FDE6 /* littlelemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littlelemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E3D159299DFFB90060FDE6 /* littlelemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = littlelemonApp.swift; sourceTree = "<group>"; };
-		C5E3D15B299DFFB90060FDE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5E3D15D299DFFBC0060FDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5E3D15F299DFFBC0060FDE6 /* littlelemon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = littlelemon.entitlements; sourceTree = "<group>"; };
 		C5E3D161299DFFBC0060FDE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,10 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				C5E3D159299DFFB90060FDE6 /* littlelemonApp.swift */,
-				C5E3D15B299DFFB90060FDE6 /* ContentView.swift */,
 				C5E3D15D299DFFBC0060FDE6 /* Assets.xcassets */,
 				C5E3D15F299DFFBC0060FDE6 /* littlelemon.entitlements */,
 				C5E3D160299DFFBC0060FDE6 /* Preview Content */,
+				C501F84629FFBAC1008F4217 /* Onboarding.swift */,
+				C5DAB45F29FFD7B200AEA20F /* Home.swift */,
+				C5DAB46129FFD80C00AEA20F /* Menu.swift */,
+				C5DAB46329FFE63B00AEA20F /* UserProfile.swift */,
 			);
 			path = littlelemon;
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5E3D15C299DFFB90060FDE6 /* ContentView.swift in Sources */,
+				C501F84729FFBAC1008F4217 /* Onboarding.swift in Sources */,
+				C5DAB46029FFD7B200AEA20F /* Home.swift in Sources */,
+				C5DAB46429FFE63B00AEA20F /* UserProfile.swift in Sources */,
+				C5DAB46229FFD80C00AEA20F /* Menu.swift in Sources */,
 				C5E3D15A299DFFB90060FDE6 /* littlelemonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
