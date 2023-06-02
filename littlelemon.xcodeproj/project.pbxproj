@@ -11,6 +11,11 @@
 		C5DAB46029FFD7B200AEA20F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAB45F29FFD7B200AEA20F /* Home.swift */; };
 		C5DAB46229FFD80C00AEA20F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAB46129FFD80C00AEA20F /* Menu.swift */; };
 		C5DAB46429FFE63B00AEA20F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAB46329FFE63B00AEA20F /* UserProfile.swift */; };
+		C5DAB46729FFF84C00AEA20F /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAB46529FFF84C00AEA20F /* FetchedObjects.swift */; };
+		C5DAB46829FFF84C00AEA20F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAB46629FFF84C00AEA20F /* Persistence.swift */; };
+		C5DAB46B29FFF8AB00AEA20F /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAB46A29FFF8AB00AEA20F /* MenuList.swift */; };
+		C5DAB46D29FFF8DA00AEA20F /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAB46C29FFF8DA00AEA20F /* MenuItem.swift */; };
+		C5DAB4742A000A3800AEA20F /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5DAB4722A000A3800AEA20F /* ExampleDatabase.xcdatamodeld */; };
 		C5E3D15A299DFFB90060FDE6 /* littlelemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E3D159299DFFB90060FDE6 /* littlelemonApp.swift */; };
 		C5E3D15E299DFFBC0060FDE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E3D15D299DFFBC0060FDE6 /* Assets.xcassets */; };
 		C5E3D162299DFFBC0060FDE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E3D161299DFFBC0060FDE6 /* Preview Assets.xcassets */; };
@@ -21,6 +26,11 @@
 		C5DAB45F29FFD7B200AEA20F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		C5DAB46129FFD80C00AEA20F /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		C5DAB46329FFE63B00AEA20F /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		C5DAB46529FFF84C00AEA20F /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		C5DAB46629FFF84C00AEA20F /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C5DAB46A29FFF8AB00AEA20F /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		C5DAB46C29FFF8DA00AEA20F /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		C5DAB4732A000A3800AEA20F /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
 		C5E3D156299DFFB90060FDE6 /* littlelemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littlelemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E3D159299DFFB90060FDE6 /* littlelemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = littlelemonApp.swift; sourceTree = "<group>"; };
 		C5E3D15D299DFFBC0060FDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +49,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5DAB46929FFF89C00AEA20F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C5DAB46A29FFF8AB00AEA20F /* MenuList.swift */,
+				C5DAB46C29FFF8DA00AEA20F /* MenuItem.swift */,
+				C5DAB4722A000A3800AEA20F /* ExampleDatabase.xcdatamodeld */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		C5DAB46E2A0009E600AEA20F /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C501F84629FFBAC1008F4217 /* Onboarding.swift */,
+				C5DAB45F29FFD7B200AEA20F /* Home.swift */,
+				C5DAB46129FFD80C00AEA20F /* Menu.swift */,
+				C5DAB46329FFE63B00AEA20F /* UserProfile.swift */,
+				C5E3D159299DFFB90060FDE6 /* littlelemonApp.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		C5E3D14D299DFFB90060FDE6 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +90,13 @@
 		C5E3D158299DFFB90060FDE6 /* littlelemon */ = {
 			isa = PBXGroup;
 			children = (
-				C5E3D159299DFFB90060FDE6 /* littlelemonApp.swift */,
+				C5DAB46E2A0009E600AEA20F /* views */,
+				C5DAB46929FFF89C00AEA20F /* models */,
+				C5DAB46529FFF84C00AEA20F /* FetchedObjects.swift */,
+				C5DAB46629FFF84C00AEA20F /* Persistence.swift */,
 				C5E3D15D299DFFBC0060FDE6 /* Assets.xcassets */,
 				C5E3D15F299DFFBC0060FDE6 /* littlelemon.entitlements */,
 				C5E3D160299DFFBC0060FDE6 /* Preview Content */,
-				C501F84629FFBAC1008F4217 /* Onboarding.swift */,
-				C5DAB45F29FFD7B200AEA20F /* Home.swift */,
-				C5DAB46129FFD80C00AEA20F /* Menu.swift */,
-				C5DAB46329FFE63B00AEA20F /* UserProfile.swift */,
 			);
 			path = littlelemon;
 			sourceTree = "<group>";
@@ -150,7 +181,12 @@
 			files = (
 				C501F84729FFBAC1008F4217 /* Onboarding.swift in Sources */,
 				C5DAB46029FFD7B200AEA20F /* Home.swift in Sources */,
+				C5DAB46B29FFF8AB00AEA20F /* MenuList.swift in Sources */,
+				C5DAB46729FFF84C00AEA20F /* FetchedObjects.swift in Sources */,
+				C5DAB46829FFF84C00AEA20F /* Persistence.swift in Sources */,
+				C5DAB4742A000A3800AEA20F /* ExampleDatabase.xcdatamodeld in Sources */,
 				C5DAB46429FFE63B00AEA20F /* UserProfile.swift in Sources */,
+				C5DAB46D29FFF8DA00AEA20F /* MenuItem.swift in Sources */,
 				C5DAB46229FFD80C00AEA20F /* Menu.swift in Sources */,
 				C5E3D15A299DFFB90060FDE6 /* littlelemonApp.swift in Sources */,
 			);
@@ -366,6 +402,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5DAB4722A000A3800AEA20F /* ExampleDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5DAB4732A000A3800AEA20F /* ExampleDatabase.xcdatamodel */,
+			);
+			currentVersion = C5DAB4732A000A3800AEA20F /* ExampleDatabase.xcdatamodel */;
+			path = ExampleDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C5E3D14E299DFFB90060FDE6 /* Project object */;
 }
